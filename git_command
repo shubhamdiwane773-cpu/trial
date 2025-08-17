@@ -1,0 +1,45 @@
+ //For pushing new file on git account
+ 
+ mkdir nn
+ cd nn/
+ git init
+ git branch mm
+ vi a.c
+ git add a.c 
+ git config --global user.email "shubhamdiwane773@gmail.com"
+ git config --global user.name "shubhamdiwane"
+ git commit -m "dkjdj"
+ git log
+ git remote add origin https://github.com/shubhamdiwane773-cpu/trial.git
+ git push -u origin master
+ cd ..
+  
+  //syncing and building new kernel source code
+  cd Downloads/
+   ls
+  tar -xf linux-6.16.1.tar.xz 
+  ls
+    cd linux-6.16.1/
+   ls
+    cd arch/
+    ls
+  162  make menuconfig
+  163  cd ..
+  164  make menuconfig
+  165  sudo apt install ncurses
+  166  sudo apt install pkg-config
+  167  sudo apt install ncurses
+  168  make menuconfig
+  169  sudo apt update
+  170  sudo apt install libncurses-dev pkg-config
+  171  sudo apt install build-essential libssl-dev flex bison
+  172  make menuconfig
+  173  git clone https://gitlab.com/techvedalive/lkp0725.git
+  174  ls
+  175  history
+  176  cd ..
+  177  ls
+  178  cd nn/
+  179  git log
+  180  git status
+  181  history > git_command
